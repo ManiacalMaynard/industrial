@@ -1,0 +1,110 @@
+
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+
+/* * { border: 1px solid pink; } */
+
+section, footer, nav {
+    width: 100%;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a, button {
+    color: #3882F6;
+    text-decoration: none;
+}
+
+button {
+    background-color: none;
+}
+
+nav {
+    background-color: #1F2937;
+    color: white;
+    height: 30px;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.navLinks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navLinks a {
+    padding-left: 20px;
+}
+
+.content, .quotes {
+    width: 80%;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quotes {
+    font-style: italic;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.quotes h4 {
+    text-align: end;
+    font-size: 1rem;
+}
+
+
+#mainImage {
+    max-height: 400px;
+}
+
+#mainSection {
+    background-color: #1F2937;
+    color: white;
+}
+
+#mainTitle {
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+.main {
+    padding-left: 20px;
+    align-self: flex-end;
+}
+
+#skillSection {
+    flex-direction: column;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+footer .content {
+    width: 80%;
+}
+
+.social {
+    margin-right: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.25rem;
+}
