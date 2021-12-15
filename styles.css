@@ -1,14 +1,15 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montagu+Slab:wght@300;600&display=swap');
 
 body {
     padding: 0;
     margin: 0;
     font-family: Roboto, sans-serif;
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 300;
+    font-family: "Lato", "Roboto", sans-serif;
 }
 
-
+/* The below line is used for formating flexboxes or grids, safely ignore */
 /* * { border: 1px solid pink; } */
 
 section, footer, nav {
@@ -56,16 +57,22 @@ nav {
 }
 
 .quotes {
-    font-style: italic;
-    font-size: 1.6rem;
+    font-weight: 300;
+    font-size: 2rem;
     text-align: center;
 }
 
 .quotes h4 {
     text-align: end;
     font-size: 1rem;
+    font-weight: 600;
 }
 
+.smallText {
+    color:#3882F6;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
 
 #mainImage {
     max-height: 400px;
@@ -77,7 +84,9 @@ nav {
 }
 
 #mainTitle {
-    font-weight: 100;
+    font-family: "Montagu Slab", "Roboto", sans-serif;
+    line-height: 3rem;
+    font-weight: 600;
     font-size: 3rem;
 }
 

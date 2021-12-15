@@ -120,3 +120,4 @@ const timer = () => {
     setInterval(quoter, 5000)
 }
 
+
