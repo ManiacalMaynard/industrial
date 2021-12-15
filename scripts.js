@@ -2,7 +2,7 @@
 console.log(`Where's Waldo?!`)
 
 // Settting the array index of the project object to display, start with zero!
-let current = 1
+let current = 0
 const changeCurrent = () => {
     current < projectInfo.length - 1 ? 
     current++ : current = 0
@@ -14,9 +14,16 @@ const projectInfo = [
     {
         project: 'Simple Timer',
         image: './images/simpletimer.jpg',
-        title: 'Simple JavaScript Timer',
+        title: 'Simple Timer',
         copy: 'A genuinely fun little one page app (SPA) to build over two lunch breaks as part of an online challenge. Asked a bunch of friends to beta test it and actually found a fault! The play button, if activated again, causes the timer function to run multiple instances. Since the "time" is just a counter of how often the timer function repeats, this causes all sorts of havoc! Check the Code',
         tools: 'JavaScript, HTML 5, CSS 3'
+    },
+    {
+        project: 'Jackie Robinson',
+        image: './images/jackieRobinsonLandingPage.jpg',
+        title: 'Jackie Robinson Tribute',
+        copy: 'Okay, so I may be a huge baseball fan and a lover of history. While studying with The Odin Project, one assignment was to build a simple landing page. I may have gone a bit beyond the brief but had a really fun evening coding this. Ended up liking it so much, it\'s structure became the skeleton for the site you are viewing now!',
+        tools: 'HTML5 & CSS3'
     },
     {
         project: 'FlimFlam Poster',
@@ -31,6 +38,13 @@ const projectInfo = [
         title: 'Uncarved Stone',
         copy: 'Make a random quote generater they said. It will be fun they said! Well I did, and it was. Decided to go with slightly different content than the usual and with subject matter that I find inspiring at least. Created with vanilla JavaScript very early in my push to learn development and while it may not be the prettiest code I\'ve ever written, I am still quite proud of it\'s simplicity.',
         tools: 'JavaScript, HTML 5, CSS 3'
+    },
+    {
+        project: 'History Snippets Book',
+        image: './images/HistorySnippetsBookCover.jpg',
+        title: 'History Snippets Book',
+        copy: 'An amazing and fun project! Asked to design and layout a collection of small history stories about my neighborhood by the wonderful local historian Katherine Hon. I was excited to not only get to work but to read every entry and learn about some offbeat and unforseen local history. Now in it\'s second printing!',
+        tools: 'InDesign, Photoshop, Illustrator'
     }
 
 ]

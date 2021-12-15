@@ -16,13 +16,24 @@ section, footer, nav {
     width: 100%;
     padding: 40px 0px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
+nav {
+    padding-bottom: 20px;
+}
+
 a, button {
-    color: #3882F6;
+    color: #275754;
     text-decoration: none;
+    transition: 180ms;
+}
+
+nav a:hover {
+    color:#E5E7EB;
+    font-size: 1.7rem;
 }
 
 button {
@@ -30,7 +41,7 @@ button {
 }
 
 nav {
-    background-color: #1F2937;
+    background-color: #031829;
     color: white;
     height: 30px;
     font-size: 1.6rem;
@@ -69,7 +80,7 @@ nav {
 }
 
 .smallText {
-    color:#3882F6;
+    color:#275754;
     font-size: 0.8rem;
     font-weight: 400;
 }
@@ -79,7 +90,7 @@ nav {
 }
 
 #mainSection {
-    background-color: #1F2937;
+    background-color: #031829;
     color: white;
 }
 
@@ -92,7 +103,7 @@ nav {
 
 .main {
     padding-left: 20px;
-    align-self: flex-end;
+    align-self: center;
 }
 
 #skillSection {
@@ -100,7 +111,7 @@ nav {
 }
 
 footer {
-    background-color: #1F2937;
+    background-color: #031829;
     color: #E5E7EB;
 }
 
