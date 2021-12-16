@@ -1,14 +1,7 @@
 // I do this for most of my scripts while testing
 console.log(`Where's Waldo?!`)
 
-// Settting the array index of the project object to display, start with zero!
-let current = 0
-const changeCurrent = () => {
-    current < projectInfo.length - 1 ? 
-    current++ : current = 0
-}
-
-// This will likely need to be moved to a DB or JSON document separate from the scripts
+// This will eventually need to be moved to a DB or JSON document separate from the scripts
 // Let there be an object!
 const projectInfo = [
     {
@@ -50,6 +43,13 @@ const projectInfo = [
 ]
 
 // Need to add an onLoad for the first project in the array, or `current = 0`
+
+// Settting the array index of the project object to display, start with zero!
+let current = 0
+const changeCurrent = () => {
+    current < projectInfo.length - 1 ? 
+    current++ : current = 0
+}
 
 // Main function - Should call the object property for img, title, copy, tools
 const nextProject = () => {

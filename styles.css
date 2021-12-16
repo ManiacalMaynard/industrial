@@ -31,9 +31,13 @@ a, button {
     transition: 180ms;
 }
 
-nav a:hover {
+i a:hover {
     color:#E5E7EB;
-    font-size: 1.7rem;
+    font-size: 110%;
+}
+
+a:hover {
+    font-weight: 900;
 }
 
 button {
