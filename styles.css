@@ -21,17 +21,10 @@ section, footer, nav {
     align-items: center;
 }
 
-nav {
-    padding-bottom: 20px;
-}
-
-a, button {
+a {
     color: #275754;
     text-decoration: none;
-    transition: 180ms;
-}
-
-i:hover {
+    transition: 200ms;
 }
 
 a:hover {
@@ -39,18 +32,12 @@ a:hover {
     font-weight: 600;
 }
 
-.smallText a:hover {
-    color: black;
-}
-
-button {
-    background-color: none;
-}
-
+/* will need to set up a floating nav */
 nav {
     background-color: #031829;
     color: white;
     height: 30px;
+    padding-bottom: 20px;
     font-size: 1.6rem;
     text-align: center;
 }
@@ -62,34 +49,6 @@ nav {
 
 .navLinks a {
     padding-left: 20px;
-}
-
-.content, .quotes {
-    width: 80%;
-}
-
-.content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.quotes {
-    font-weight: 300;
-    font-size: 2rem;
-    text-align: center;
-}
-
-.quotes h4 {
-    text-align: end;
-    font-size: 1rem;
-    font-weight: 600;
-}
-
-.smallText {
-    color:#275754;
-    font-size: 0.8rem;
-    font-weight: 400;
 }
 
 #mainImage {
@@ -113,8 +72,38 @@ nav {
     align-self: center;
 }
 
-#skillSection {
-    flex-direction: column;
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quotes {
+    font-weight: 300;
+    font-size: 2rem;
+    text-align: center;
+    transition: 500ms;
+}
+
+.content, .quotes {
+    width: 80%;
+}
+
+.quotes h4 {
+    padding-right: 40px;
+    text-align: end;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.smallText {
+    color:#275754;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.smallText a:hover {
+    color: black;
 }
 
 footer {
@@ -133,5 +122,5 @@ footer .content {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.25rem;
+    font-size: 1.6rem;
 }
