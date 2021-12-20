@@ -10,7 +10,7 @@ const projectInfo = [
         title: 'Simple Timer',
         copy: 'A genuinely fun little one page app (SPA) to build over two lunch breaks as part of an online challenge. Asked a bunch of friends to beta test it and actually found a fault! The play button, if activated again, caused the timer function to run multiple instances. Since the "time" is just a counter of how often the timer function repeats, this caused all sorts of havoc! Fixed now, ofc =)',
         tools: 'Made with JavaScript, HTML 5, CSS 3',
-        links: `<a href="https://github.com/ManiacalMaynard/stopWatch-js" target="_blank">GitHub Repo</a>`
+        links: `<a href="https://github.com/ManiacalMaynard/stopWatch-js" target="_blank">GitHub Repo, </a>`
     },
     {
         project: 'Jackie Robinson',
@@ -18,7 +18,7 @@ const projectInfo = [
         title: 'Jackie Robinson Tribute',
         copy: 'Okay, so I may be a huge baseball fan and a lover of history. While studying with The Odin Project, one assignment was to build a simple landing page. I may have gone a bit beyond the brief but had a really fun evening coding this. Ended up liking it so much, it\'s structure became the skeleton for the site you are viewing now!',
         tools: 'Made with HTML5 & CSS3',
-        links: `<a href="https://github.com/ManiacalMaynard/OdinLandingPage" target="_blank">GitHub Repo</a>`
+        links: `<a href="https://github.com/ManiacalMaynard/OdinLandingPage" target="_blank">GitHub Repo, </a>`
     },
     {
         project: 'FlimFlam Poster',
@@ -26,7 +26,7 @@ const projectInfo = [
         title: 'Flim Flam Poster',
         copy: 'Bright, festive, alluring is what I would call this illustrious band of musicians. What an absolute pleasure to be invited to create a poster for this intrepid band of troubadors. Made up of roughly a dozen musicians, the Flim Flam is more of a olde tyme traveling show than a band in the modern sense. Musicians enter and mix between songs and you never know who will be playing when and with whom.',
         tools: 'Made with Illustrator, Photoshop, Lithography',
-        links: `<a href="https://www.facebook.com/grampadrewsFlimFlamRevue/" target="_blank">Their FaceBook Page</a>`
+        links: `<a href="https://www.facebook.com/grampadrewsFlimFlamRevue/" target="_blank">Their FaceBook Page, </a>`
     },
     {
         project: 'Uncarved Stone',
@@ -34,7 +34,7 @@ const projectInfo = [
         title: 'Uncarved Stone',
         copy: 'Make a random quote generater they said. It will be fun they said! Well I did, and it was. Decided to go with slightly different content than the usual and with subject matter that I find inspiring at least. Created with vanilla JavaScript very early in my push to learn development and while it may not be the prettiest code I\'ve ever written, I am still quite proud of it\'s simplicity.',
         tools: 'Made with JavaScript, HTML 5, CSS 3',
-        links: `<a href="https://github.com/ManiacalMaynard/quoteGenerator" target="_blank">GitHub Repo</a>`
+        links: `<a href="https://github.com/ManiacalMaynard/quoteGenerator" target="_blank">GitHub Repo, </a>`
     },
     {
         project: 'History Snippets Book',
@@ -42,7 +42,7 @@ const projectInfo = [
         title: 'History Snippets Book',
         copy: 'An amazing and fun project! Asked to design and layout a collection of small history stories about my neighborhood by the wonderful local historian Katherine Hon. I was excited to not only get to work but to read every entry and learn about some offbeat and unforseen local history. Now in it\'s second printing!',
         tools: 'Made with InDesign, Photoshop, Illustrator',
-        links: `<a href="https://northparkhistory.org/" target="_blank">Learn more.</a>`
+        links: `<a href="https://northparkhistory.org/" target="_blank">Learn more, </a>`
     }
 
 ]

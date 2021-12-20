@@ -22,7 +22,7 @@ section, footer, nav {
 }
 
 a {
-    color: #275754;
+    color: #0a9396;
     text-decoration: none;
     transition: 200ms;
 }
@@ -53,6 +53,7 @@ nav {
 
 #mainImage {
     max-height: 400px;
+    justify-content: center;
 }
 
 #mainSection {
