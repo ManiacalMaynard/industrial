@@ -24,7 +24,7 @@ section, footer, nav {
 a {
     color: #0a9396;
     text-decoration: none;
-    transition: 200ms;
+    transition: 300ms;
 }
 
 a:hover {
@@ -35,9 +35,9 @@ a:hover {
 /* will need to set up a floating nav */
 nav {
     background-color: #031829;
-    color: white;
+    color: #E5E7EB;
     height: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     font-size: 1.6rem;
     text-align: center;
 }
@@ -51,6 +51,10 @@ nav {
     padding-left: 20px;
 }
 
+button {
+    background-color;
+}
+
 #mainImage {
     max-height: 400px;
     justify-content: center;
@@ -58,7 +62,7 @@ nav {
 
 #mainSection {
     background-color: #031829;
-    color: white;
+    color: #E5E7EB;
 }
 
 #mainTitle {
@@ -98,13 +102,13 @@ nav {
 }
 
 .smallText {
-    color:#275754;
+    color:#0a9396;
     font-size: 0.8rem;
     font-weight: 400;
 }
 
 .smallText a:hover {
-    color: black;
+    color: #001219;
 }
 
 footer {
