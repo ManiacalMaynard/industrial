@@ -2,7 +2,7 @@
 console.log(`Where's Waldo?!`)
 
 // This will eventually need to be moved to a DB or JSON document separate from the scripts
-// Let there be an object!
+// Let there be an object! THIS IS DEPRICATED NOW, move this content to the new projects area
 const projectInfo = [
     {
         project: 'Simple Timer',

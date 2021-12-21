@@ -1,22 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montagu+Slab:wght@300;600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
 :root {
     --dark-blue: #031829;
     --aqua-blue: #0a9396;
     --pale-white: #E5E7EB;
 }
 
+/* The below line is used for formating flexboxes or grids, safely ignore */
+/* * { border: 1px solid pink; } */
+
 body {
     padding: 0;
     margin: 0;
-    font-family: Roboto, sans-serif;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
     font-size: 1rem;
     font-weight: 300;
     font-family: "Lato", "Roboto", sans-serif;
 }
-
-/* The below line is used for formating flexboxes or grids, safely ignore */
-/* * { border: 1px solid pink; } */
 
 header, section, footer, nav {
     width: 100%;
@@ -36,9 +38,24 @@ header, section, footer, nav {
     color: var(--pale-white);
 }
 
+h1, h2, h3, h4 {
+    font-family: "Montagu Slab", "Roboto", sans-serif;
+    font-weight: 600;
+}
+
 a {
     color: var(--aqua-blue);
     text-decoration: none;
+    transition: 500ms;
+}
+
+button {
+    padding: 5px 10px;
+    border: 1px solid var(--aqua-blue);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.0);
+    color: var(--aqua-blue);
+    cursor: pointer;
     transition: 300ms;
 }
 
@@ -58,43 +75,23 @@ nav {
     text-align: center;
 }
 
-button {
-    padding: 5px 10px;
-    border: 1px solid var(--aqua-blue);
-    border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.0);
-    color: var(--aqua-blue);
-    cursor:pointer;
-    transition: 300ms;
-}
-
 .navLinks {
+    width: 15%;
     display: flex;
     justify-content: space-between;
 }
 
-.navLinks a {
+.introText {
     padding-left: 20px;
 }
 
-#mainImage {
-    max-height: 400px;
-    justify-content: center;
-}
-
-#mainSection {
-}
-
-#mainTitle {
-    font-family: "Montagu Slab", "Roboto", sans-serif;
-    line-height: 3rem;
-    font-weight: 600;
+.introText h1 {
     font-size: 3rem;
+    line-height: 2.8rem;
 }
 
-.main {
-    padding-left: 20px;
-    align-self: center;
+.main, img {
+    max-height: 400px;
 }
 
 .content, .quotes {
@@ -109,16 +106,15 @@ button {
 
 .quotes {
     font-weight: 300;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: center;
-    transition: 500ms;
 }
 
 .quotes h4 {
+    font-family: 'Open Sans', 'Roboto', sans-serif;
     padding-right: 40px;
     text-align: end;
-    font-size: 1rem;
-    font-weight: 600;
+    font-size: 0.9rem;
 }
 
 .smallText {
@@ -141,7 +137,7 @@ button {
 .projectBox {
     width: 300px;
     height: 300px;
-    margin: 5px;
+    margin: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -153,10 +149,9 @@ button {
 }
 
 footer {
- 
 }
 
-.social {
+footer .social {
     margin-right: 20px;
     height: 100%;
     display: flex;
