@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montagu+Slab:wght@300;600&display=swap');
 
+:root {
+    --dark-blue: #031829;
+    --aqua-blue: #0a9396;
+    --pale-white: #E5E7EB;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -12,7 +18,7 @@ body {
 /* The below line is used for formating flexboxes or grids, safely ignore */
 /* * { border: 1px solid pink; } */
 
-section, footer, nav {
+header, section, footer, nav {
     width: 100%;
     padding: 40px 0px;
     display: flex;
@@ -21,25 +27,45 @@ section, footer, nav {
     align-items: center;
 }
 
+.sectionLight {
+    background-color: var(--pale-white);
+}
+
+.sectionDark {
+    background-color: var(--dark-blue);
+    color: var(--pale-white);
+}
+
 a {
-    color: #0a9396;
+    color: var(--aqua-blue);
     text-decoration: none;
     transition: 300ms;
 }
 
-a:hover {
-    color:#E5E7EB;
+a:hover, button:hover {
+    color: var(--pale-white);
+    border-color: var(--pale-white);
     font-weight: 600;
 }
 
 /* will need to set up a floating nav */
 nav {
-    background-color: #031829;
-    color: #E5E7EB;
+    background-color: var(--dark-blue);
+    color: var(--pale-white);
     height: 30px;
     padding-bottom: 10px;
     font-size: 1.6rem;
     text-align: center;
+}
+
+button {
+    padding: 5px 10px;
+    border: 1px solid var(--aqua-blue);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.0);
+    color: var(--aqua-blue);
+    cursor:pointer;
+    transition: 300ms;
 }
 
 .navLinks {
@@ -51,18 +77,12 @@ nav {
     padding-left: 20px;
 }
 
-button {
-    background-color;
-}
-
 #mainImage {
     max-height: 400px;
     justify-content: center;
 }
 
 #mainSection {
-    background-color: #031829;
-    color: #E5E7EB;
 }
 
 #mainTitle {
@@ -75,6 +95,10 @@ button {
 .main {
     padding-left: 20px;
     align-self: center;
+}
+
+.content, .quotes {
+    width: 80%;
 }
 
 .content {
@@ -90,10 +114,6 @@ button {
     transition: 500ms;
 }
 
-.content, .quotes {
-    width: 80%;
-}
-
 .quotes h4 {
     padding-right: 40px;
     text-align: end;
@@ -102,22 +122,38 @@ button {
 }
 
 .smallText {
-    color:#0a9396;
+    color: var(--aqua-blue);
     font-size: 0.8rem;
     font-weight: 400;
 }
 
 .smallText a:hover {
-    color: #001219;
+    color: var(--dark-blue);
+}
+
+#projects {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectBox {
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectBox img {
+    max-width: 300px;
+    max-height: 300px;
 }
 
 footer {
-    background-color: #031829;
-    color: #E5E7EB;
-}
-
-footer .content {
-    width: 80%;
+ 
 }
 
 .social {
