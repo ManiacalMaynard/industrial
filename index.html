@@ -83,13 +83,23 @@
         </div>
     </section>
 
+    <!-- This whole section will be redone with a JavaScript-centric approach but for the time being, old skool it is. -->
     <section id="projects" class="sectionDark">
-            <div class="projectBox"><img src="./images/flimflam210605-insta.jpg" alt=""></div>
-            <div class="projectBox"><img src="./images/jackieRobinsonLandingPage.jpg" alt=""></div>
-            <div class="projectBox"><img src="./images/simpletimer.jpg" alt=""></div>
-            <div class="projectBox"><img src="./images/UncarvedStone.jpg" alt=""></div>
-            <div class="projectBox"><img src="./images/HistorySnippetsBookCover.jpg" alt=""></div>
+        <div class="projectBox"><img src="./images/FlimFlam210605-13x19.jpg" alt="Flim Flam poster design by maynard." onclick=showModal(this.alt)></div>
+        <div class="projectBox"><img src="./images/jackieRobinsonLandingPage.jpg" alt="Jackie Robinson Tribute Web Page by Maynard."></div>
+        <div class="projectBox"><img src="./images/simpletimer.jpg" alt="Simple timer web app by maynard."></div>
+        <div class="projectBox"><img src="./images/NPBF-1901-MainPoster.jpg" alt="North Park Festival of Beers Poster by Maynard."></div>
+        <div class="projectBox"><img src="./images/UncarvedStone.jpg" alt="Random Wise Quotes Web Page by Maynard."></div>
+        <div class="projectBox"><img src="./images/HistorySnippetsBookCover.jpg" alt="History Snippets Book Design by Maynard."></div>
     </section>
+
+    <div id="modal">
+        <button id="modalCloseBtn" onclick=hideModal()>X</button>
+        <div class="modalCopy">
+            <img src="./images/FlimFlam210605-13x19.jpg" alt="">
+            <h2>Headline I guess?</h2>
+            What an absolute pleasure to be invited to create a poster for this intrepid band of troubadors. Made up of roughly a dozen musicians, the Flim Flam is more of a olde fashioned traveling show than a band in the modern sense. Musicians enter and mix between songs and you never know who will be playing when and with whom. <a href="#projects" onclick=hideModal()>Link Me Daddy</a></div>
+    </div>
 
 
     <footer class="sectionDark">
@@ -112,6 +122,7 @@
 
         </div>
     </footer>
+
 
 </body>
 

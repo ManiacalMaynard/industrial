@@ -6,6 +6,7 @@
     --dark-blue: #031829;
     --aqua-blue: #0a9396;
     --pale-white: #E5E7EB;
+    --its-red: #e63946;
 }
 
 /* The below line is used for formating flexboxes or grids, safely ignore */
@@ -41,6 +42,7 @@ header, section, footer, nav {
 h1, h2, h3, h4 {
     font-family: "Montagu Slab", "Roboto", sans-serif;
     font-weight: 600;
+    line-height: 90%;
 }
 
 a {
@@ -56,7 +58,7 @@ button {
     background-color: rgba(255, 255, 255, 0.0);
     color: var(--aqua-blue);
     cursor: pointer;
-    transition: 300ms;
+    transition: 200ms;
 }
 
 a:hover, button:hover {
@@ -135,18 +137,49 @@ nav {
 }
 
 .projectBox {
-    width: 300px;
-    height: 300px;
     margin: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    transition: 300ms;
+}
+
+.projectBox:hover {
+    cursor: pointer;
+    scale: 105%;
 }
 
 .projectBox img {
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 200px;
+    max-height: 200px;
 }
+
+#modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+    max-width: 80%;
+    height: auto;
+    padding: 20px 30px;
+    background-color: var(--pale-white);
+    border-radius: 5px;
+    filter: drop-shadow(-3px 3px 10px var(--dark-blue));
+}
+
+#modalCloseBtn {
+    background-color: var(--its-red);
+    color: var(--pale-white);
+    border: 1pt solid var(--its-red);
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    font-weight: 900;
+}
+
+.modalCopy {
+    width: auto;
+    padding: 10px;
+}
+
 
 footer {
 }
