@@ -68,6 +68,11 @@ button {
     color: var(--aqua-blue);
     cursor: pointer;
     transition: 200ms;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 69;
 }
 
 a:hover, button:hover {
