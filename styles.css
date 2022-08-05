@@ -99,7 +99,7 @@ nav {
 }
 
 .navLinks {
-  width: 15%;
+  width: 30%;
   display: flex;
   justify-content: space-between;
 }
