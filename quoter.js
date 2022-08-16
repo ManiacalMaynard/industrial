@@ -103,18 +103,19 @@ const sourceText = [
 ];
 
 // Primary function, takes the random number as the id of the above object and swaps out the text on our index page.
-const quoter = (id) => {
+const quoter = () => {
+    let id = Math.floor(Math.random() * sourceText.length);
     document.getElementById('quoteWords').innerHTML = sourceText[id].text;
     document.getElementById('quoteName').innerHTML = sourceText[id].author;
 };
 
-//  Randomizer to pass through quoter(), I like separation of concerns lol
-const rando = () => {
-    return Math.floor(Math.random() * sourceText.length);
-};
+// Timer function to change the quotes every so often
 
-// Calling the quoter! Used for the "Another" link on index.html and onLoad()
-quoter(rando());
+const turnover = () => {
+        setInterval(quoter, 6000);
+        console.log('turnover')
+    };
 
+turnover()
 
 // Note: If you're reading this you are probably thinking it's overkill but the point of this script was in fact to get into good coding habits such as separation of concerns. So, bear with me on this one =)
