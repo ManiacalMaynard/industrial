@@ -110,12 +110,11 @@ const quoter = () => {
 };
 
 // Timer function to change the quotes every so often
-
 const turnover = () => {
-        setInterval(quoter, 6000);
-        console.log('turnover')
-    };
+    setInterval(quoter, 7000);
+};
 
-turnover()
+quoter();
+turnover();
 
-// Note: If you're reading this you are probably thinking it's overkill but the point of this script was in fact to get into good coding habits such as separation of concerns. So, bear with me on this one =)
+ // And thus concludes the exercise. Thank you!

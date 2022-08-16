@@ -137,6 +137,7 @@ nav .content {
   font-weight: 300;
   font-size: 1.8rem;
   text-align: center;
+  transition: 500ms;
 }
 
 .quotes h4 {
