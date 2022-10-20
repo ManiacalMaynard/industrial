@@ -134,7 +134,10 @@ nav .content {
 }
 
 .quotes {
+  height: 20vh;
+  justify-content: center;
   align-items: center;
+  align-content: center;
   font-weight: 300;
   font-size: 1.25rem;
   text-align: center;
