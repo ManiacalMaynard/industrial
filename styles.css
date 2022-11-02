@@ -122,6 +122,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  align-content: center;
 }
 
 .content,
@@ -134,28 +135,27 @@ nav .content {
 }
 
 .quotes {
-  height: 20vh;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
   font-weight: 300;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   text-align: center;
-  transition: 500ms;
 }
 
 .quotes h4 {
   font-family: "Open Sans", "Roboto", sans-serif;
   padding-right: 40px;
   text-align: end;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 .smallText {
-  margin-top: 20px;
+  margin-top: 1rem;
   color: var(--aqua-blue);
   font-size: 0.8rem;
   line-height: 90%;
+}
+
+.smallText a {
+  text-decoration: underline;
 }
 
 .smallText a:hover {

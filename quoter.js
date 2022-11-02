@@ -109,12 +109,11 @@ const quoter = () => {
     document.getElementById('quoteName').innerHTML = sourceText[id].author;
 };
 
-// Timer function to change the quotes every so often
+// Timer function to change the quotes every so often -- Needs transition animations!!!
 const turnover = () => {
     setInterval(quoter, 7000);
 };
 
 quoter();
-turnover();
 
  // And thus concludes the exercise. Thank you!
