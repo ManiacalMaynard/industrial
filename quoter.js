@@ -106,12 +106,12 @@ const sourceText = [
 const quoter = () => {
     let id = Math.floor(Math.random() * sourceText.length);
     document.getElementById('quoteWords').innerHTML = sourceText[id].text;
-    document.getElementById('quoteName').innerHTML = sourceText[id].author;
+    document.getElementById('quoteName').innerHTML = '- ' + sourceText[id].author;
 };
 
 // Timer function to change the quotes every so often -- Needs transition animations!!!
 const turnover = () => {
-    setInterval(quoter, 7000);
+    setInterval(quoter, 12000);
 };
 
 quoter();

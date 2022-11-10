@@ -27,8 +27,7 @@ body {
 
 header,
 section,
-footer,
-nav {
+footer {
   width: 100%;
   padding: 30px 0px;
   display: flex;
@@ -38,7 +37,8 @@ nav {
 }
 
 .sectionLight {
-  background-color: var(--pale-white);
+  background-color: var(--mid-blue);
+  color: var(--pale-white)
 }
 
 .sectionDark {
@@ -141,7 +141,7 @@ img {
 }
 
 .quotes {
-  font-weight: 300;
+  font-weight: 400;
   text-align: center;
 }
 
@@ -150,23 +150,20 @@ img {
   font-size: 1.2rem;
 }
 
-.quotes h4 {
-  font-family: "Open Sans", "Roboto", sans-serif;
+#quoteName {
   padding-right: 40px;
+  font-weight: 700;
   text-align: end;
   font-size: 0.8rem;
 }
 
 .smallText {
   margin-top: 1rem;
-  color: var(--aqua-blue);
   font-size: 0.8rem;
-  line-height: 90%;
 }
 
 .smallText a:hover {
   cursor: pointer;
-  color: var(--dark-blue);
 }
 
 .projectContainer {
