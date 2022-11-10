@@ -54,13 +54,12 @@ h3,
 h4 {
   font-family: "Montagu Slab", "Roboto", sans-serif;
   font-weight: 600;
-  line-height: 90%;
-  margin: 0px;
+  margin: inherit;
 }
 
 a {
   color: var(--aqua-blue);
-  text-decoration: none;
+  text-decoration: underline;
   transition: 500ms;
 }
 
@@ -136,8 +135,12 @@ nav .content {
 
 .quotes {
   font-weight: 300;
-  font-size: 1.5rem;
   text-align: center;
+}
+
+#quoteWords {
+  margin: inherit;
+  font-size: 1.2rem;
 }
 
 .quotes h4 {
@@ -152,10 +155,6 @@ nav .content {
   color: var(--aqua-blue);
   font-size: 0.8rem;
   line-height: 90%;
-}
-
-.smallText a {
-  text-decoration: underline;
 }
 
 .smallText a:hover {
