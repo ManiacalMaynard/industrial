@@ -30,9 +30,9 @@ section,
 footer,
 nav {
   width: 100%;
-  padding: 40px 0px;
+  padding: 30px 0px;
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
 }
@@ -87,21 +87,31 @@ button:hover {
 
 /*     -----     TOP NAVIGATION     -----     */
 nav {
+  width: 100%;
+  padding: 50px 0px 30px 0px;
   background-color: var(--dark-blue);
   color: var(--pale-white);
-  height: 30px;
-  padding-bottom: 10px;
   font-size: 1.6rem;
   display: flex;
-  justify-content: space-evenly;
-  text-align: center;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+nav > div {
+  padding: 10px 20px;
 }
 
 .navLinks {
-  width: 30%;
+  width: 40%;
   display: flex;
+  flex-flow: row nowrap;
   justify-content: space-between;
 }
+
+
+/*     -----     INTRODUCTION SECTION     -----     */
 
 .introText {
   padding-left: 20px;
@@ -119,6 +129,7 @@ img {
 
 .content {
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -127,10 +138,6 @@ img {
 .content,
 .quotes {
   width: 80%;
-}
-
-nav .content {
-  justify-content: space-between;
 }
 
 .quotes {
