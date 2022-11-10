@@ -19,15 +19,12 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Open Sans", "Roboto", sans-serif;
-  font-size: 15px;
-  font-weight: 300;
 }
 
 /*     -----     main sections     -----     */
 
 header,
-section,
-footer {
+section {
   width: 100%;
   padding: 30px 0px;
   display: flex;
@@ -100,14 +97,15 @@ nav {
 }
 
 nav > div {
-  padding: 10px 20px;
 }
 
 .navLinks {
-  width: 40%;
+  width: 30%;
+  padding: 10px 20px;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  font-size: 1.6rem;
 }
 
 
@@ -125,14 +123,6 @@ nav > div {
 .main,
 img {
   max-height: 400px;
-}
-
-.content {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
 }
 
 .content,
@@ -166,23 +156,27 @@ img {
   cursor: pointer;
 }
 
-.projectContainer {
-  width: 80%;
-  margin: 0px;
-  display: flex;
-  flex-flow: row nowrap;
+#cardDeck {
+  margin: 2rem;
+  width: 90%;
+  padding: 0.25rem;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
   justify-content: center;
-  align-items: center;
+  align-items: top;
+  text-align: left;
 }
 
-.projectBox img {
-  max-width: 300px;
-  max-height: 300px;
+.card {
+  font-size: .8rem;
 }
 
-.projectText {
-  padding: 0px 20px;
+.card > img {
+  max-width: 100%;
 }
+
+
 
 #modal {
   position: fixed;
@@ -214,19 +208,24 @@ img {
 }
 
 footer {
+  padding: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
   font-size: 0.8rem;
   background-color: var(--mid-blue);
   color: var(--pale-white);
 }
 
-footer .social {
-  margin-right: 20px;
-  height: 100%;
+footer > .content {
+  width: 80%;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-flow: row wrap;
+  justify-content: center;
   align-items: center;
-  font-size: 1.6rem;
+  align-content: center;
 }
 
 #backUpBtn {
