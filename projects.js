@@ -32,7 +32,7 @@ const projectList = [
     link : 'https://github.com/ManiacalMaynard/SciFiCalc',
   },
   {
-    image : './images/FlimFlam210605-13x19.jpg',
+    image : './images/flimflam210605-insta.jpg',
     tech : 'Illustrator, Photoshop, Digital Lithography',
     title : 'Flim Flam Poster',
     text : 'Bright, festive, alluring is what I would call this illustrious band of musicians. What an absolute pleasure to be invited to create a poster for this intrepid band of troubadors. Made up of roughly a dozen musicians, the Flim Flam is more of a olde tyme traveling show than a band in the modern sense. Musicians enter and mix between songs and you never know who will be playing when and with whom.',
@@ -46,6 +46,22 @@ const projectList = [
     text : 'An amazing and fun project! Asked to design and layout a collection of small history stories about my neighborhood by the wonderful local historian Katherine Hon. I was excited to not only get to work but to read every entry and learn about some offbeat and unforseen local history. Now in it\'s second printing!',
     linkName : 'North Park Historical Society',
     link : 'https://northparkhistory.org/',
+  },
+  {
+    image : './images/NPBF-1901-insta.jpg',
+    tech : 'Illustrator, Digital Lithography',
+    title : 'North Park Festival of Beers',
+    text : 'What a fun project that was a major fund raiser for a great local charity project, the San Diego Music Foundation which helps grade school kids get instruments and study music. Really had fun with scale and hierachy here, pretty happy with the final result. Cheers!',
+    linkName : 'Festival of Beers',
+    link : 'https://www.northparkbeerfest.com/',
+  },  
+  {
+    image : './images/Studio-2912-Logo-Final-Brief.jpg',
+    tech : 'Illustrator',
+    title : 'Studio 2912 Logo Brief',
+    text : 'When a friend asks you to help, you help \'em! A great friend of mine needed a logo for her new business venture and after a few meetings and some fascinating conversations, we landed on this. Simple, clear, and elegant. Shown here is the basic brief outlining color variations, layouts, etc.',
+    linkName : 'Studio 2912',
+    link : 'http://www.southparksd.com/project/jen-spencer-landscape-architect/',
   },
   // {
   //   image : '',

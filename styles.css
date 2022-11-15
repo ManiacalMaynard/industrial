@@ -82,13 +82,11 @@ button:hover {
   text-decoration: underline;
 }
 
-/*     -----     TOP NAVIGATION     -----     */
+
+/*     -----     INTRODUCTION SECTION     -----     */
+
 nav {
   width: 100%;
-  padding: 50px 0px 30px 0px;
-  background-color: var(--dark-blue);
-  color: var(--pale-white);
-  font-size: 1.6rem;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -100,19 +98,31 @@ nav > div {
 }
 
 .navLinks {
-  width: 30%;
+  width: 50%;
   padding: 10px 20px;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
+#mainImage {
+  border: none;
+  border-radius: 50%;
+  width: 70%;
+  height: 70%;
+}
 
-/*     -----     INTRODUCTION SECTION     -----     */
-
-.introText {
-  padding-left: 20px;
+header {
+  /* background-image: url('./images/buddythewonderdog.jpg'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .introText h1 {
@@ -125,6 +135,7 @@ img {
   max-height: 400px;
 }
 
+.introText,
 .content,
 .quotes {
   width: 80%;
