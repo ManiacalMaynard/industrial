@@ -26,7 +26,7 @@ body {
 header,
 section {
   width: 100%;
-  padding: 30px 0px;
+  padding: 2rem 0rem;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -127,7 +127,10 @@ header {
 
 .introText {
   padding: 1rem;
+  align-self: flex-end;
   background-color: hsla(128, 20%, 10%, 0.7);
+  border: 0px solid black;
+  border-radius: 10px;
 }
 
 .main
@@ -197,13 +200,10 @@ li {
 
 ul > i {
   width: 12rem;
-  padding: 1rem 0rem 2rem;
+  padding: 1rem 0rem;
   color: var(--aqua-blue);
   font-size: 3rem;
   text-align: center;
-}
-
-.skillsList {
 }
 
 #cardDeck {
@@ -225,8 +225,6 @@ ul > i {
 .card > img {
   max-width: 100%;
 }
-
-
 
 #modal {
   position: fixed;
@@ -282,4 +280,5 @@ footer > .content {
   display: block;
   top: 20px;
   right: 30px;
+  background-color: var(--mid-blue);
 }
