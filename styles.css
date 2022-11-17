@@ -114,7 +114,7 @@ nav > div {
 }
 
 header {
-  background-image: url('./images/buddythewonderdog.jpg');
+  background-image: url('https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 60vh;
@@ -125,12 +125,12 @@ header {
   text-align: center;
 }
 
-.introText h1 {
-  font-size: 3rem;
-  line-height: 2.8rem;
+.introText {
+  padding: 1rem;
+  background-color: hsla(128, 20%, 10%, 0.7);
 }
 
-.main,
+.main
 img {
   max-height: 400px;
 }
@@ -181,6 +181,7 @@ img {
   gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
   justify-content: space-evenly;
+  text-align: left;
 }
 
 ul {
@@ -192,6 +193,14 @@ ul {
 
 li {
   padding: 0.3rem 0rem;
+}
+
+ul > i {
+  width: 12rem;
+  padding: 1rem 0rem 2rem;
+  color: var(--aqua-blue);
+  font-size: 3rem;
+  text-align: center;
 }
 
 .skillsList {
