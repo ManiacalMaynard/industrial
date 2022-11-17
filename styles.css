@@ -241,6 +241,6 @@ footer > .content {
 
 #backUpBtn {
   display: block;
-  bottom: 20px;
+  top: 20px;
   right: 30px;
 }
