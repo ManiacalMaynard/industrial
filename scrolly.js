@@ -6,7 +6,7 @@ btn = document.getElementById('backUpBtn');
 window.onscroll = function() { scrolly() };
 
 const scrolly = () => {
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100 ) {
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300 ) {
         btn.style.display = "block";
     } else {
         btn.style.display = "none";
