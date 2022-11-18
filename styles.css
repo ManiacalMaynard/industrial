@@ -277,7 +277,7 @@ footer > .content {
 }
 
 #backUpBtn {
-  display: block;
+  display: hidden;
   top: 20px;
   right: 30px;
   background-color: var(--mid-blue);
