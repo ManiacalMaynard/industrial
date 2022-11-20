@@ -49,10 +49,6 @@ const sourceText = [
         author: "Drew Douglas"
     },
     { 
-        text: "Maynard is one hot piece of &#$.", 
-        author: "Cindy Hacker Kirby"
-    },
-    { 
         text: "Dude is SOLID as hell, man!", 
         author: "Ed Cronan"
     },
