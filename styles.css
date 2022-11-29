@@ -67,6 +67,7 @@ button {
   background-color: var(--dark-blue);
   color: var(--pale-white);
   cursor: pointer;
+  font-weight: bold;
 }
 
 a:hover,
@@ -193,7 +194,7 @@ li {
   padding: 0.3rem 0rem;
 }
 
-ul > i {
+.skillsList > i {
   width: 100%;
   padding: 1rem 0rem;
   color: var(--aqua-blue);

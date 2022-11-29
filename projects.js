@@ -16,6 +16,14 @@ const projectList = [
     link : 'https://www.figma.com/proto/GI1cG233IaFLzMJwzekFLI/BierGarten-Ordering-App?scaling=scale-down&page-id=106%3A32&node-id=106%3A33&starting-point-node-id=106%3A33'
   },
   {
+    image : './images/bpi-website.jpg',
+    tech : 'WordPress, WooCommerce',
+    title : 'BPI eCommerce Web Site',
+    text : 'Being in charge of an entire eCommerce site was a challenge to be honest. I had a lot to learn when we started this project but have been very successful and I\'m rather proud of the results. Gross sales increases every year, SEO rankings are great, and our customer conversion rates are well over average. Really happy with it!',
+    linkName : 'www.BPIcustomprinting.com',
+    link : 'https://www.bpicustomprinting.com/',
+  },
+  {
     image : './images/baseballCountdown.jpg',
     tech : 'HTML 5,  CSS 3, JavaScript ES6',
     title : 'Baseball Opening Day Countdown',
