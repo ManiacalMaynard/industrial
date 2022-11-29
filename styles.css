@@ -64,8 +64,8 @@ button {
   padding: 5px 10px;
   border: 1px solid var(--aqua-blue);
   border-radius: 5px;
-  background-color: var(--mid-blue);
-  color: var(--aqua-blue);
+  background-color: var(--dark-blue);
+  color: var(--pale-white);
   cursor: pointer;
 }
 
