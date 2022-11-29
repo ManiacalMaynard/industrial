@@ -87,6 +87,7 @@ function deckBuilder() {
 
     const img = document.createElement('img')
     img.src = item.image
+    img.alt = item.title
 
     const tech = document.createElement('div')
     tech.innerText = item.tech
@@ -127,4 +128,4 @@ function deckBuilder() {
 };
 
 deckBuilder();
-console.log(projectList)
+console.log('Number Five is Alive!')
