@@ -89,7 +89,7 @@ button:hover {
 nav {
   width: 100%;
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -99,11 +99,10 @@ nav > div {
 }
 
 .navLinks {
-  width: 50%;
-  padding: 10px 20px;
+  width: 30%;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   font-size: 1.8rem;
   color: var(--pale-white);
 }
@@ -112,7 +111,6 @@ nav > div {
   border: none;
   border-radius: 50%;
   width: 70%;
-  height: 70%;
 }
 
 header {
@@ -129,11 +127,12 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-size: 0.8rem;
 }
 
 .introText {
   padding: 1rem;
-  align-self: flex-end;
+  /* align-self: flex-end; */
   background-color: var(--dark-blue);
   border: 1px solid var(--aqua-blue);
   border-radius: 10px;
