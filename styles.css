@@ -51,29 +51,33 @@ h3,
 h4 {
   font-family: "Montagu Slab", "Roboto", sans-serif;
   font-weight: 600;
-  margin: inherit;
 }
 
 a {
   color: var(--aqua-blue);
   text-decoration: underline;
-  transition: 500ms;
+  transition: 300ms;
 }
 
 a > i {
   color: var(--pale-white);
   text-decoration: none;
-  transition: 500ms;
+  transition: 300ms;
+}
+
+a > i:hover {
+  color: var(--aqua-blue)
 }
 
 button {
-  padding: 1rem 1.25rem;
+  padding: 1rem;
   border: 1px solid var(--aqua-blue);
   border-radius: 5px;
   background-color: var(--dark-blue);
   color: var(--pale-white);
   cursor: pointer;
   font-weight: bold;
+  transition: 300ms;
 }
 
 a:hover,
@@ -114,16 +118,16 @@ nav > div {
 }
 
 header {
-  /* background-image: url('https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg'); */
-  background-image: url('./images/NewAlbum-SurveyJamBoard.png');
-  background-color: darkslategrey;
+  background-image: url('https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg');
+  /* background-image: url('./images/NewAlbum-SurveyJamBoard.png'); */
+  background-color: var(--mid-blue);
   background-blend-mode: multiply;
   background-size: cover;
   background-repeat: no-repeat;
   color: var(--pale-white);
-  height: 60vh;
+  /* height: 60vh; */
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row, wrap;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -131,26 +135,45 @@ header {
 }
 
 .introText {
+  margin-top: 3rem;
   padding: 1rem;
-  /* align-self: flex-end; */
   background-color: var(--dark-blue);
   border: 1px solid var(--aqua-blue);
   border-radius: 10px;
 }
 
-.introText * {
+/* .introText * {
   margin: 1rem;
-}
-
-.main
-img {
-  max-height: 400px;
-}
+} */
 
 .introText,
 .content,
 .quotes {
   width: 80%;
+}
+
+.currentProject {
+  display: grid;
+  /* gap: 2rem; */
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.currentProject button {
+  margin-top: 2rem;
+}
+
+.currentImage {
+  margin: 1rem;
+  max-width: 90%;
+  transition: 300ms;
+  filter: opacity(90%);
+}
+
+.currentImage:hover {
+  filter: opacity(100%);
 }
 
 .quotes {
