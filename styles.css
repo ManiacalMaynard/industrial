@@ -253,7 +253,12 @@ li {
   font-size: .8rem;
 }
 
-.card > img {
+.card img {
+  max-width: 98%;
+  transition: 300ms;
+}
+
+.card img:hover {
   max-width: 100%;
 }
 

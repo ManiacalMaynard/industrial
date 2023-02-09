@@ -101,9 +101,9 @@ function deckBuilder() {
 
     const card = document.createElement('div')
 
-    const img = document.createElement('img')
-    img.src = item.image
-    img.alt = item.title
+    const img = document.createElement('div')
+    img.innerHTML = '<a href="' + item.link + '" target="_blank">' + '<img src="' + item.image + '" alt="' + item.title + '">'
+
 
     const tech = document.createElement('div')
     tech.innerText = item.tech
