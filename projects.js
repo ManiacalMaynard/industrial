@@ -1,5 +1,13 @@
 const projectList = [ 
   {
+    image : './images/tribbleAndNyce-thumb.jpg',
+    tech : 'HTML, CSS, JavaScript',
+    title : 'Tribble & Nyce Web Site',
+    text : 'Quick, clean, simple. A landing page for a small law firm that needs only to be there for easy contact information. No marketing, SEO, just a nice page that feels right. A pure pleasure to design and code for some wonderful people. There\'s a subtle detail I added just for kicks in the JavaScript =)',
+    linkName : 'Final Staging',
+    link : 'https://maniacalmaynard.github.io/tribble-nyce/',
+  },
+  {
     image : './images/AppleWatchAudioUI.jpg',
     tech : 'Figma, UX Design',
     title : 'Apple Watch Audio App',
