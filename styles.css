@@ -15,9 +15,11 @@
 /* * { border: 1px solid pink; } */
 
 /*     -----     body is used as reset and text set up     -----      */
-body {
+* {
   padding: 0;
   margin: 0;
+  border: 0;
+  box-sizing: border-box;
   font-family: "Open Sans", "Roboto", sans-serif;
 }
 
@@ -56,6 +58,7 @@ h4 {
 a {
   color: var(--aqua-blue);
   text-decoration: underline;
+  text-underline-offset: 0.1rem;
   transition: 300ms;
 }
 
@@ -212,7 +215,7 @@ header {
 
 #skills .content {
   display: grid;
-  gap: 2rem;
+  gap: 3rem;
   grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
   justify-content: space-evenly;
   text-align: center;
@@ -238,11 +241,11 @@ li {
 }
 
 #cardDeck {
-  margin: 2rem;
+  margin: 3rem;
   width: 90%;
   padding: 0.25rem;
   display: grid;
-  gap: 3rem;
+  gap: 4rem;
   grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
   justify-content: center;
   align-items: top;
@@ -254,41 +257,13 @@ li {
 }
 
 .card img {
-  max-width: 98%;
+  max-width: 100%;
+  opacity: 1.00;
   transition: 300ms;
 }
 
 .card img:hover {
-  max-width: 100%;
-}
-
-#modal {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  visibility: hidden;
-  max-width: 80%;
-  height: auto;
-  padding: 20px 30px;
-  background-color: var(--pale-white);
-  border-radius: 5px;
-  filter: drop-shadow(-3px 3px 10px var(--dark-blue));
-}
-
-#modalCloseBtn {
-  background-color: var(--its-red);
-  color: var(--pale-white);
-  border: 1pt solid var(--its-red);
-  position: fixed;
-  top: 5px;
-  right: 5px;
-  font-weight: 900;
-}
-
-.modalCopy {
-  width: auto;
-  padding: 10px;
+  opacity: 0.5;
 }
 
 footer {
