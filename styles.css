@@ -258,12 +258,14 @@ li {
 
 .card img {
   max-width: 100%;
-  opacity: 1.00;
+  opacity: 0.6;
   transition: 300ms;
+  filter: grayscale(100);
 }
 
 .card img:hover {
-  opacity: 0.5;
+  filter: grayscale(0);
+  opacity: 1.00;
 }
 
 footer {
