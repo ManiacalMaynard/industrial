@@ -1,6 +1,6 @@
 const projectList = [
   {
-    image: '/images/dbotm-crest-reverse.png',
+    image: './images/dbotm-crest-reverse.png',
     tech: 'Pencil, Paper, Illustrator',
     title: 'Dive Bar of the Month Logo',
     text: 'Balancing social networking and the dive bar scene is a tricky thing to get right visually, but we ended up with something to be proud of. Super fun working on this and look forward to seeing it all over!',
